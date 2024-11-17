@@ -1,0 +1,35 @@
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#pf {
+    height: 8em;
+    float: left;
+    margin-right: 2.5em;
+}
+
+#container {
+    min-height: 80vh;
+    width: 90vw;
+    background-color: #ffb641;
+    border-radius: 10px;
+    margin-inline: auto;
+    padding: 1em 2em;
+}
+
+#img-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 8em;
+}
+
+#img-container > img {
+    display: block;
+    margin-inline: auto;
+    height: 10em;
+}
